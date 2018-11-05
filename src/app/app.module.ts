@@ -5,11 +5,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { FooModule } from './foo/foo.module';
 import { AppComponent } from './app.component';
 import { FooDirective } from './foo.directive';
+import { CapitalisePipe } from './capitalise.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
-    FooDirective
+    FooDirective,
+    CapitalisePipe
   ],
   imports: [
     BrowserModule,
